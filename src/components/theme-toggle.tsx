@@ -1,18 +1,20 @@
 'use client'
 
-import * as React from 'react'
 import { useTheme } from 'next-themes'
 
 import { Icons } from '@/components/icons'
-import { Button } from '@/components/ui/button'
+import { Button, ButtonProps } from '@/components/ui/button'
 
-export function ThemeToggle() {
+type ThemeToggleProps = ButtonProps
+
+export function ThemeToggle({ className, variant, size }: ThemeToggleProps) {
   const { setTheme, theme } = useTheme()
 
   return (
     <Button
-      variant='ghost'
-      size='sm'
+      className={className}
+      variant={variant}
+      size={size}
       onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
     >
       <Icons.sun className='rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0' />
