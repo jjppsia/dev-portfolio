@@ -15,13 +15,14 @@ export function Project({ project }: ProjectProps) {
 
   return (
     <article className='relative isolate flex flex-col gap-8 md:flex-row'>
-      <div className='relative aspect-[16/9] overflow-hidden rounded-2xl shadow-md sm:aspect-[2/1] md:w-72 md:shrink-0'>
+      <div className='relative aspect-[16/9] overflow-hidden rounded-2xl border shadow-md sm:aspect-[2/1] md:w-72 md:shrink-0'>
         <Image
           src={project.imagePath}
           alt={project.title}
-          sizes='(max-width: 767px) 100vh, 288px'
           style={{ objectFit: 'cover' }}
           quality={100}
+          sizes='(min-width: 768px) 384px, 100vw'
+          priority
           fill
         />
       </div>
@@ -36,7 +37,7 @@ export function Project({ project }: ProjectProps) {
         </div>
         <div className='space-y-4'>
           <h3 className='text-lg font-semibold'>{project.title}</h3>
-          <p>{project.description}</p>
+          <p className='opacity-80'>{project.description}</p>
         </div>
         <Separator />
         <div className='flex items-center space-x-4'>
@@ -63,7 +64,7 @@ export function Project({ project }: ProjectProps) {
         </div>
         <div className='flex items-center space-x-4'>
           <h4 className='self-start whitespace-nowrap text-sm font-medium'>
-            Tech stack:
+            Built with:
           </h4>
           <div>
             <ul className='flex flex-wrap items-center gap-4'>
