@@ -13,7 +13,7 @@ export function DesktopNav() {
     <div className='hidden w-full max-w-4xl sm:block'>
       <nav className='flex items-center'>
         <Image
-          src='/assets/skull.png'
+          src='/assets/cute-einstein.svg'
           alt='Picture of the author'
           width={50}
           height={50}
@@ -23,6 +23,7 @@ export function DesktopNav() {
           {navItems.map(({ title, href }, index) => (
             <li key={index}>
               <Link
+                href={href}
                 className={cn(
                   buttonVariants({ variant: 'ghost', size: 'sm' }),
                   'cursor-pointer'

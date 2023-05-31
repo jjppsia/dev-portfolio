@@ -37,6 +37,7 @@ export function MobileNav() {
               {navItems.map(({ title, href }, index) => (
                 <li key={index}>
                   <Link
+                    href={href}
                     className='cursor-pointer'
                     to={href}
                     offset={-24}
@@ -48,7 +49,7 @@ export function MobileNav() {
                     <span className='text-sm'>{title}</span>
                   </Link>
                   {index === navItems.length - 1 ? null : (
-                    <Separator className='my-2' />
+                    <Separator className='my-4' />
                   )}
                 </li>
               ))}
