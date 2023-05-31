@@ -5,12 +5,19 @@ import { ThemeProvider } from '@/components/theme-provider'
 
 import '@/styles/globals.css'
 
+import { Metadata } from 'next'
+
+import { siteConfig } from '@/config/site'
 import { DesktopNav } from '@/components/desktop-nav'
 import { MobileNav } from '@/components/mobile-nav'
 
-export const metadata = {
-  title: 'Jp Sia | Software Engineer',
-  description: 'My personal developer portfolio',
+export const metadata: Metadata = {
+  title: `${siteConfig.name} | Software Engineer`,
+  description: siteConfig.description,
+  keywords: siteConfig.keywords,
+  authors: siteConfig.authors,
+  creator: siteConfig.creator,
+  themeColor: siteConfig.themeColor,
 }
 
 type RootLayoutProps = {
@@ -27,7 +34,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
         )}
       >
         <ThemeProvider attribute='class' defaultTheme='system' enableSystem>
-          <div className='flex flex-col items-center px-4 py-8 sm:px-8 xl:px-0'>
+          <div className='flex flex-col items-center px-4 pt-8 sm:px-8 xl:px-0'>
             <DesktopNav />
             <MobileNav />
             {children}
