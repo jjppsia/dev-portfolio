@@ -21,7 +21,7 @@ export const projects: Project[] = [
   {
     title: 'ChatJPS',
     description:
-      'lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      "Developed a ChatGPT clone. OpenAI's API allowed me to create a sophisticated conversational AI model that closely resembled ChatGPT.",
     links: [
       {
         title: 'Live',
@@ -73,7 +73,7 @@ export const projects: Project[] = [
   {
     title: "Hunter's Hub",
     description:
-      'lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Redesigned the website of a headhunting company, revamping its user interface and applied a modernized design and improved user experience.',
     links: [
       {
         title: 'Live',
@@ -109,7 +109,7 @@ export const projects: Project[] = [
   {
     title: 'User Authentication API',
     description:
-      'lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Built a user authentication API from scratch as a practical learning exercise to gain a comprehensive understanding of the underlying concepts and implementation techniques involved in creating secure user registration, login, and authorization systems for web applications.',
     links: [
       {
         title: 'Github',
@@ -137,7 +137,7 @@ export const projects: Project[] = [
   {
     title: 'Discord Bot',
     description:
-      'lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Developed a custom Discord bot that was used by multiple discord servers, providing various features such as custom commands, and personalized notifications.',
     links: [
       {
         title: 'Github',
