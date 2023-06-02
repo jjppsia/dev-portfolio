@@ -24,7 +24,7 @@ export const projects: Project[] = [
       "Developed a ChatGPT clone. OpenAI's API allowed me to create a sophisticated conversational AI model that closely resembled ChatGPT.",
     links: [
       {
-        title: 'Live',
+        title: 'Demo',
         href: 'https://chatjps.vercel.app',
       },
       {
@@ -76,7 +76,7 @@ export const projects: Project[] = [
       'Redesigned the website of a headhunting company, revamping its user interface and applied a modernized design and improved user experience.',
     links: [
       {
-        title: 'Live',
+        title: 'Demo',
         href: 'https://huntershub.vercel.app',
       },
       {
