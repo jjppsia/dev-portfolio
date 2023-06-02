@@ -12,7 +12,7 @@ Here are some highlighted projects that demonstrate my abilities and expertise:
 
 - **Description:** Developed a ChatGPT clone. OpenAI's API allowed me to create a sophisticated conversational AI model that closely resembled ChatGPT.
 - **Buil with:** Next.js, React, TypeScript, Tailwind CSS, MongoDB, Prisma, NextAtuth, and OpenAI
-- **Demo:** https://www.jpsia.me/
+- **Demo:** https://chatjps.vercel.app/
 
 ### Hunter's Hub
 
