@@ -1,34 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Developer Portfolio
 
-## Getting Started
+## About Me
 
-First, run the development server:
+I'm Jp Sia, a software engineer who's passionate about building really cool stuff with code. I'm dreaming of bringing ideas to reality and creating meaningful solutions that could make a difference..
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Projects
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Here are some highlighted projects that demonstrate my abilities and expertise:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### ChatJPS
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Description:** Developed a ChatGPT clone. OpenAI's API allowed me to create a sophisticated conversational AI model that closely resembled ChatGPT.
+- **Buil with:** Next.js, React, TypeScript, Tailwind CSS, MongoDB, Prisma, NextAtuth, and OpenAI
+- **Demo:** https://chatjps.vercel.app/
 
-## Learn More
+### Hunter's Hub
 
-To learn more about Next.js, take a look at the following resources:
+- **Description:** Redesigned the website of a headhunting company, revamping its user interface and applied a modernized design and improved user experience.
+- **Built with:** Next.js, React, TypeScript, and Tailwind CSS
+- **Demo:** https://huntershub.vercel.app/
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contact
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Email: [johnpaulsia4@gmail.com](mailto:johnpaulsia4@gmail.com)
+- LinkedIn: [John Paul Sia](https://www.linkedin.com/in/john-paul-sia-551224146/)
