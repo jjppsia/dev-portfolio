@@ -1,17 +1,12 @@
-import {
-  ChevronDown,
-  LucideProps,
-  Moon,
-  SunMedium,
-  type Icon as LucideIcon,
-} from 'lucide-react'
+import { ChevronDownIcon, MoonIcon, SunIcon } from '@radix-ui/react-icons'
+import { LucideProps, type Icon as LucideIcon } from 'lucide-react'
 
 export type Icon = LucideIcon
 
 export const Icons = {
-  chevronDown: ChevronDown,
-  moon: Moon,
-  sun: SunMedium,
+  chevronDown: ChevronDownIcon,
+  moon: MoonIcon,
+  sun: SunIcon,
   expressjs: (props: LucideProps) => (
     <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128' {...props}>
       <path
