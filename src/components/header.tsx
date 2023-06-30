@@ -33,7 +33,7 @@ export function Header() {
                 <Link
                   href={href}
                   className={cn(
-                    buttonVariants({ variant: 'ghost', size: 'sm' }),
+                    buttonVariants({ variant: 'ghost', size: 'icon' }),
                     'w-9 px-0'
                   )}
                   target='_blank'
