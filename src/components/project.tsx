@@ -31,9 +31,7 @@ export function Project({ project }: ProjectProps) {
           <time dateTime={dateTime} className='opacity-80'>
             {project.date}
           </time>
-          <Badge variant='secondary' className='pointer-events-none'>
-            {project.category}
-          </Badge>
+          <Badge className='pointer-events-none'>{project.category}</Badge>
         </div>
         <div className='space-y-4'>
           <h3 className='text-lg font-semibold'>{project.title}</h3>
@@ -48,7 +46,7 @@ export function Project({ project }: ProjectProps) {
             <ul className='flex flex-wrap items-center gap-2'>
               {project.links.map(({ title, href }, index) => (
                 <li key={index} className='flex' title={title}>
-                  <Badge variant='outline' className='p-0'>
+                  <Badge variant='secondary' className='p-0'>
                     <Link
                       href={href}
                       target='_blank'
