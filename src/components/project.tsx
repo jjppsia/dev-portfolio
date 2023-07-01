@@ -31,7 +31,7 @@ export function Project({ project }: ProjectProps) {
           <time dateTime={dateTime} className='opacity-80'>
             {project.date}
           </time>
-          <Badge className='pointer-events-none'>{project.category}</Badge>
+          <Badge className='pointer-events-none' variant='outline'>{project.category}</Badge>
         </div>
         <div className='space-y-4'>
           <h3 className='text-lg font-semibold'>{project.title}</h3>
