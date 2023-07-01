@@ -21,7 +21,7 @@ export default function RootPage() {
         </section>
         {/* Projects */}
         <section id='projects' className='mt-36'>
-          <h2 className='text-3xl font-bold tracking-tight'>Projects</h2>
+          <h2 className='text-3xl font-bold tracking-tight'>Selected Projects</h2>
           <div className='mt-8 space-y-20'>
             {projects.map((project, index) => (
               <Project key={index} project={project} />
