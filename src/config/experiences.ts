@@ -19,7 +19,7 @@ export const experiences: Experience[] = [
     company: 'Dashlabs',
     jobTitle: 'Infrastructure Engineer Intern',
     jobDescription:
-      'Developed a feature called Send Logs that allows users to easily see or read the data of a particular email send logs that comes from SendGrid. Implemented CRUD functionality in the Export CSV Config feature',
+      'Developed a feature called Send Logs that allows users to easily see or read the data of a particular email send logs that comes from SendGrid. Implemented CRUD functionality in the Export CSV Config feature.',
     startDate: 'Aug. 2022',
     endDate: 'Sept. 2022',
   },
