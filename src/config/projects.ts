@@ -107,6 +107,37 @@ export const projects: Project[] = [
     ],
   },
   {
+    title: 'MS Paint',
+    description: 'Recreated the classic MS Paint application.',
+    links: [
+      {
+        title: 'Demo',
+        href: 'https://ms-paint.vercel.app',
+      },
+      {
+        title: 'Github',
+        href: 'https://github.com/jjppsia/ms-paint',
+      },
+    ],
+    imagePath: '/assets/projects/ms-paint.png',
+    date: 'May 10, 2023',
+    category: 'Frontend',
+    techStack: [
+      {
+        name: 'React',
+        icon: 'react',
+      },
+      {
+        name: 'TypeScript',
+        icon: 'typeScript',
+      },
+      {
+        name: 'Redux',
+        icon: 'redux',
+      },
+    ],
+  },
+  {
     title: 'User Authentication API',
     description:
       'Built a user authentication API from scratch as a practical learning exercise to gain a comprehensive understanding of the underlying concepts and implementation techniques involved in creating secure user registration, login, and authorization systems for web applications.',
